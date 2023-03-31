@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anybody:wght@400;600&family=Josefin+Sans&family=Kanit:wght@200&family=Open+Sans:ital@1&family=Press+Start+2P&family=Roboto+Slab&family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(108, 108, 192), rgb(4, 4, 31));
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+fieldset {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    gap: 40px;
+    
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    transition: 2s;
+    color: gold;
+  
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.titulo {
+    margin: 50px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: gold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    color: rgb(105, 110, 115);
+
+
+}
+
+input:hover{ 
+    cursor: pointer;
+    transition: 1s;
+    color: rgb(22, 19, 1);
+}
+
+#txtn1 {
+    border: solid gold;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#txtn2 {
+    border: solid gold;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#res {
+    font-size: 30px;
+}
+
+.div2 {
+    color: gold;
+}
+
+.forte {
+    font-size: 50px;
+    color: gold;
+}
